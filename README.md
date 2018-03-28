@@ -21,6 +21,20 @@
 
 <br>
 
+
+### Honestica specific
+
+Pour builder -> https://getbootstrap.com/docs/4.0/getting-started/build-tools/#tooling-setup
+
+### Pourquoi ce projet ?
+
+Pouvoir personaliser les constantes de bootstrap avec le theme de couleur Lifen.
+
+### Todo
+
+- CI
+- Host sur S3
+
 ## Table of contents
 
 - [Quick start](#quick-start)
