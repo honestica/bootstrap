@@ -1,11 +1,11 @@
-$lifen: #ff6742;
-$lifen_blue: #3e61b3;
-$spacer: 1.2rem;
+$lifen: #ff6742 !default;
+$lifen_blue: #3e61b3 !default;
+$spacer: 1.2rem !default;
 
-$primary: $lifen;
-$secondary: $lifen_blue;
+$primary: $lifen !default;
+$secondary: $lifen_blue !default;
 
 $theme-colors: (
   "primary": $primary,
   "danger": $secondary
-);
+) !default;
