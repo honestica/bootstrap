@@ -46,8 +46,6 @@ $yellow: #ffc107 !default;
 $green: #28a745 !default;
 $teal: #20c997 !default;
 $cyan: #17a2b8 !default;
-$lifen: #ff6742 !default;
-$lifen-blue: #3e61b3 !default;
 
 $colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -65,13 +63,13 @@ $colors: map-merge(
     "cyan": $cyan,
     "white": $white,
     "gray": $gray-600,
-    "gray-dark": $gray-800,
-    "lifen": $lifen,
-    "lifen-blue": $lifen-blue
+    "gray-dark": $gray-800
   ),
   $colors
 );
 
+$primary: $blue !default;
+$secondary: $gray-600 !default;
 $success: $green !default;
 $info: $cyan !default;
 $warning: $yellow !default;
@@ -80,10 +78,11 @@ $light: $gray-100 !default;
 $dark: $gray-800 !default;
 
 $theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
 $theme-colors: map-merge(
   (
-    "primary": $lifen,
-    "secondary": $lifen-blue,
+    "primary": $primary,
+    "secondary": $secondary,
     "success": $success,
     "info": $info,
     "warning": $warning,
@@ -93,7 +92,6 @@ $theme-colors: map-merge(
   ),
   $theme-colors
 );
-// stylelint-enable
 
 // Set a specific jump point for requesting color jumps
 $theme-color-interval: 8% !default;
@@ -124,6 +122,7 @@ $enable-print-styles: true !default;
 // variables. Mostly focused on spacing.
 // You can add more entries to the $spacers map, should you need more variation.
 
+$spacer: 1rem !default;
 $spacers: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
 $spacers: map-merge(
